@@ -1,0 +1,142 @@
+Repo,PR,Title,Phase,Time to Merge (Hours),Comments,Reviews,Additions,Deletions,Total Changes,Merged At,Author
+PDS-Farmvet/backend,132,release-3.0.0,Experimental (Sprint 3-4),120.92055555555555,0,2,13813,8404,22217,2025-11-10 18:47:07,theycelz
+PDS-Farmvet/backend,100,chore/prompt code review,Experimental (Sprint 3-4),0.004166666666666667,0,0,7814,7423,15237,2025-10-27 22:02:30,marcelloAnth
+PDS-Farmvet/backend,97,chore: adiciona prompt da revisão por llm,Experimental (Sprint 3-4),0.021111111111111112,0,1,201,0,201,2025-10-27 21:35:23,theycelz
+PDS-Farmvet/backend,162,docs: Atualizar README com funcionalidades e diagramas de arquitetura,Experimental (Sprint 3-4),0.08138888888888889,0,3,103,35,138,2025-11-26 04:53:09,theycelz
+PDS-Farmvet/backend,161,hotfix: kits nao funcionando,Experimental (Sprint 3-4),0.10083333333333333,0,1,51,147,198,2025-11-26 03:51:07,theycelz
+PDS-Farmvet/backend,159,feat: movimentação de kits,Experimental (Sprint 3-4),5.277222222222222,1,2,1694,367,2061,2025-11-26 00:54:21,jecelen
+PDS-Farmvet/backend,158,docs: reestruturação completa do README e documentação Swagger,Experimental (Sprint 3-4),16.405277777777776,0,2,764,626,1390,2025-11-25 19:27:38,theycelz
+PDS-Farmvet/backend,154,feat: corrige a usabilidade de login,Experimental (Sprint 3-4),76.69083333333333,1,1,410,111,521,2025-11-24 00:31:25,GuilhermeCupertino
+PDS-Farmvet/backend,153,Hotfix/corrige seed,Experimental (Sprint 3-4),0.019444444444444445,1,0,6,9,15,2025-11-19 18:25:56,marcelloAnth
+PDS-Farmvet/backend,152,hotfix: adiciona script para verificação de extensões PHP necessárias e …,Experimental (Sprint 3-4),0.005833333333333334,0,0,114,9,123,2025-11-19 18:17:20,GilvanFe
+PDS-Farmvet/backend,151,test: conserta seeds,Experimental (Sprint 3-4),5.123888888888889,0,2,1356,387,1743,2025-11-19 03:15:58,marcelloAnth
+PDS-Farmvet/backend,150,refactor: padroniza rotas REST e integra sistema de Kits,Experimental (Sprint 3-4),0.7038888888888889,0,2,1266,1112,2378,2025-11-18 20:00:40,theycelz
+PDS-Farmvet/backend,149,feat: implementa-kits,Experimental (Sprint 3-4),1.146388888888889,0,12,677,16,693,2025-11-17 22:02:31,theycelz
+PDS-Farmvet/backend,147,feat: login,Experimental (Sprint 3-4),51.10638888888889,0,9,1387,199,1586,2025-11-19 01:55:04,GuilhermeCupertino
+PDS-Farmvet/backend,146,hotfix: erro em execução de testes,Experimental (Sprint 3-4),1.2752777777777777,0,1,56,11,67,2025-11-10 21:06:22,marcelloAnth
+PDS-Farmvet/backend,145,docs: swagger documentation,Experimental (Sprint 3-4),23.655833333333334,0,2,3219,115,3334,2025-11-11 19:03:34,GilvanFe
+PDS-Farmvet/backend,139,feat: adiciona arquivo de licença BSD 3-Clause ao repositório,Experimental (Sprint 3-4),0.025555555555555557,0,2,58,0,58,2025-11-10 18:46:06,theycelz
+PDS-Farmvet/backend,138,fix: adiciona validação de requerimento em medicações obrigatórias,Experimental (Sprint 3-4),5.821111111111111,1,3,34,1,35,2025-11-10 18:30:19,jecelen
+PDS-Farmvet/backend,137,test: teste services,Experimental (Sprint 3-4),97.40833333333333,1,3,956,163,1119,2025-11-10 18:05:39,marcelloAnth
+PDS-Farmvet/backend,136,hotfix: roda lint,Experimental (Sprint 3-4),0.034722222222222224,0,1,419,478,897,2025-11-05 22:11:23,theycelz
+PDS-Farmvet/backend,135,"feat: otimizações Docker - Alpine, OPcache e seeds inteligentes",Experimental (Sprint 3-4),0.03722222222222222,0,2,61,21,82,2025-11-05 22:01:15,theycelz
+PDS-Farmvet/backend,134,"Feat: adiciona kit e itemKit a migrations, entity e table",Experimental (Sprint 3-4),0.14555555555555555,1,2,231,0,231,2025-11-05 21:48:59,jecelen
+PDS-Farmvet/backend,133,fix: Regenerar composer.lock para corrigir jobs do CI,Experimental (Sprint 3-4),0.04111111111111111,0,1,136,69,205,2025-11-05 20:24:04,theycelz
+PDS-Farmvet/backend,131,fix: movimentacoes ,Experimental (Sprint 3-4),3.33,1,3,84,30,114,2025-11-05 21:06:31,jecelen
+PDS-Farmvet/backend,130,fix: correcao de bug relatorio e tela de dashboard,Experimental (Sprint 3-4),0.2813888888888889,0,3,4,4,8,2025-11-04 21:47:28,GuilhermeCupertino
+PDS-Farmvet/backend,129,hotfix: corrige bugs pt 2 #32 #33 #36,Experimental (Sprint 3-4),0.5305555555555556,1,2,129,109,238,2025-11-04 21:50:38,theycelz
+PDS-Farmvet/backend,128,hotfix: corrige configuração Docker para comunicação frontend-backend,Experimental (Sprint 3-4),0.13527777777777777,0,1,115,41,156,2025-11-04 19:03:03,theycelz
+PDS-Farmvet/backend,121,fix: atualiza formatacao de itens no back,Experimental (Sprint 3-4),20.620833333333334,0,2,3,3,6,2025-11-04 17:45:28,GuilhermeCupertino
+PDS-Farmvet/backend,120,fix: resolve bugs #29 #28 #27(part-eos) #23 #24 #25,Experimental (Sprint 3-4),2.0755555555555554,0,2,203,214,417,2025-11-03 21:14:33,theycelz
+PDS-Farmvet/backend,119,ci: adiciona workflows de release e automação de PRs,Experimental (Sprint 3-4),142.54555555555555,0,4,275,6,281,2025-11-04 19:43:09,theycelz
+PDS-Farmvet/backend,118,hotfix: corrige config.sh não versionado nos hooks do husky,Experimental (Sprint 3-4),0.3908333333333333,0,1,76,10,86,2025-10-29 21:02:15,theycelz
+PDS-Farmvet/backend,117,feat: estatisticas e posição de estoque,Experimental (Sprint 3-4),3.111111111111111,1,3,114,93,207,2025-10-29 19:42:21,theycelz
+PDS-Farmvet/backend,115,hotfix: parâmetro invalido na listagem de lotes,Experimental (Sprint 3-4),3.3541666666666665,2,2,39,28,67,2025-10-29 16:36:48,jecelen
+PDS-Farmvet/backend,113,feat: adiciona endpoint para detalhar lotes,Experimental (Sprint 3-4),3.7422222222222223,1,2,0,0,0,2025-10-29 16:38:02,jecelen
+PDS-Farmvet/backend,112,test: Adiciona e atualiza testes de integracao entidades,Experimental (Sprint 3-4),19.51,0,2,1519,738,2257,2025-10-29 16:41:32,marcelloAnth
+PDS-Farmvet/backend,111,fix: corrige débitos técnicos da sprint 02,Experimental (Sprint 3-4),0.4797222222222222,0,3,242,176,418,2025-10-28 21:05:06,theycelz
+PDS-Farmvet/backend,110,refactor: repository redesign,Experimental (Sprint 3-4),0.6111111111111112,0,12,751,55,806,2025-10-28 19:40:39,theycelz
+PDS-Farmvet/backend,108,chore: adiciona pre hooks,Experimental (Sprint 3-4),0.8897222222222222,2,5,27,26,53,2025-10-28 19:02:59,theycelz
+PDS-Farmvet/backend,98,refactor: adiciona condicao desativar e editar,Experimental (Sprint 3-4),22.030277777777776,1,1,218,20,238,2025-10-28 19:40:59,GuilhermeCupertino
+PDS-Farmvet/backend,96,chore/remove-metodos-inutilizados,Experimental (Sprint 3-4),1.3180555555555555,0,2,1,36,37,2025-10-27 22:49:07,jecelen
+PDS-Farmvet/backend,94,feat: adiciona a funcionalidade de desativar e reativar item,Experimental (Sprint 3-4),23.36777777777778,0,2,176,20,196,2025-10-28 19:03:43,GuilhermeCupertino
+PDS-Farmvet/backend,93,fix: mudança em regra de lote para registrar movimentacao lote vencido,Experimental (Sprint 3-4),1.3488888888888888,0,2,3,4,7,2025-10-27 19:56:13,jecelen
+PDS-Farmvet/backend,90,style: aplica lint autofix,Experimental (Sprint 3-4),141.9063888888889,0,2,2389,422,2811,2025-10-27 19:42:33,theycelz
+PDS-Farmvet/backend,81,hotfix: consertar ci quebrado urgente ,Baseline (Sprint 1-2),1.025,1,0,203,152,355,2025-10-16 01:05:02,theycelz
+PDS-Farmvet/backend,80,"hotfix: conserta setor, fornecedor e testes urgentes",Baseline (Sprint 1-2),22.8875,2,1,301,18,319,2025-10-15 19:16:09,theycelz
+PDS-Farmvet/backend,79,bug: resolve o bug de listagem das saidas,Baseline (Sprint 1-2),0.35777777777777775,1,2,8,6,14,2025-10-14 20:17:55,jecelen
+PDS-Farmvet/backend,78,Hotfix/muda mensagem item caracteres,Baseline (Sprint 1-2),0.9036111111111111,0,1,3,3,6,2025-10-14 20:17:17,GuilhermeCupertino
+PDS-Farmvet/backend,77,gera automaticamente a descricao e atualiza o nome dos tipos item,Baseline (Sprint 1-2),1.0161111111111112,0,0,2,2,4,2025-10-14 20:17:19,GuilhermeCupertino
+PDS-Farmvet/backend,66,feat: ativar-setor-e-fornecedor-padronização (ordem-de-merge-3),Baseline (Sprint 1-2),189.39,3,1,680,114,794,2025-10-13 21:45:44,theycelz
+PDS-Farmvet/backend,65,feat: Implementar desativação de setores e mais (ordem de merge - 2),Baseline (Sprint 1-2),191.91611111111112,1,2,460,114,574,2025-10-13 21:45:24,theycelz
+PDS-Farmvet/backend,64,feat: Implementar ordem abc e desativação de fornecedores e mais (ordem de merge -1),Baseline (Sprint 1-2),191.0211111111111,1,2,310,90,400,2025-10-13 18:56:36,theycelz
+PDS-Farmvet/backend,62,hotfix: edicao de itens e desativacao de itens,Baseline (Sprint 1-2),73.26222222222222,1,1,11,9,20,2025-10-05 22:31:44,GuilhermeCupertino
+PDS-Farmvet/backend,60,chore: reorganiza configurações do dependabot ,Baseline (Sprint 1-2),0.07527777777777778,0,1,37,10,47,2025-09-30 19:26:03,theycelz
+PDS-Farmvet/backend,57,hotfix/string-catmat,Baseline (Sprint 1-2),23.078333333333333,0,1,85,22,107,2025-09-30 19:29:18,GuilhermeCupertino
+PDS-Farmvet/backend,56,feat/deleta-movimentacao,Baseline (Sprint 1-2),22.921944444444446,1,2,274,22,296,2025-09-30 18:49:40,jecelen
+PDS-Farmvet/backend,55,feat: adiciona lógica de salvamento do campo marca do lote,Baseline (Sprint 1-2),166.27694444444444,1,2,23,11,34,2025-09-30 18:38:42,jecelen
+PDS-Farmvet/backend,50,hotfix/corrige testes unitarios quebrados,Baseline (Sprint 1-2),285.15472222222223,1,0,480,198,678,2025-09-30 19:13:19,theycelz
+PDS-Farmvet/backend,49,refactor: fluxo de Setor e ajusta CORS,Baseline (Sprint 1-2),13.8575,0,0,752,216,968,2025-09-18 17:17:25,theycelz
+PDS-Farmvet/backend,47,hotfix: integracao e unitario,Baseline (Sprint 1-2),15.139166666666666,0,0,208,9,217,2025-09-18 11:43:55,GuilhermeCupertino
+PDS-Farmvet/backend,45,refactor: item service test,Baseline (Sprint 1-2),0.2608333333333333,1,2,2,2,4,2025-09-17 19:59:25,GuilhermeCupertino
+PDS-Farmvet/backend,43,hotfix: corrige codigo catmat,Baseline (Sprint 1-2),0.24638888888888888,0,2,3,3,6,2025-09-17 19:33:06,theycelz
+PDS-Farmvet/backend,42,refactor: refatora secao relatorios,Baseline (Sprint 1-2),2.0527777777777776,1,2,380,13,393,2025-09-17 21:09:49,GilvanFe
+PDS-Farmvet/backend,41,"test: adiciona testes unitários para FornecedorService, ItemService e LoteService",Baseline (Sprint 1-2),1.1713888888888888,0,0,822,116,938,2025-09-17 20:16:44,theycelz
+PDS-Farmvet/backend,40,refactor: atualiza a seção de Itens,Baseline (Sprint 1-2),22.166666666666668,1,3,378,127,505,2025-09-17 17:57:19,GuilhermeCupertino
+PDS-Farmvet/backend,38,fix: conserta bug em templates - atribuicao automatica,Baseline (Sprint 1-2),0.7066666666666667,0,0,141,32,173,2025-09-16 19:56:26,theycelz
+PDS-Farmvet/backend,37,Refactor/movimentacao,Baseline (Sprint 1-2),0.9488888888888889,0,2,208,426,634,2025-09-16 20:10:08,jecelen
+PDS-Farmvet/backend,32,refactor: atualiza Fornecedores/Lotes/catmat,Baseline (Sprint 1-2),22.371388888888887,2,1,753,381,1134,2025-09-16 19:04:46,theycelz
+PDS-Farmvet/backend,31,chore: refatora bd,Baseline (Sprint 1-2),0.02722222222222222,0,0,1931,1348,3279,2025-09-09 19:22:22,marcelloAnth
+PDS-Farmvet/backend,30,chore:mplementa docker,Baseline (Sprint 1-2),0.11444444444444445,0,1,758,293,1051,2025-09-08 21:18:02,theycelz
+PDS-Farmvet/backend,24,Chore/refatora bd,Baseline (Sprint 1-2),194.88722222222222,0,0,1931,1348,3279,2025-09-09 19:03:20,jecelen
+PDS-Farmvet/frontend,87,hotfix: conserta action dependabot removendo sintaxe,Experimental (Sprint 3-4),0.0175,0,1,0,10,10,2025-11-10 21:38:40,theycelz
+PDS-Farmvet/frontend,78,release-3.0.0,Experimental (Sprint 3-4),117.0575,0,2,17637,5346,22983,2025-11-10 18:49:59,theycelz
+PDS-Farmvet/frontend,23,chore/automatizar-validações ,Baseline (Sprint 1-2),0.0075,0,0,488,166,654,2025-09-02 21:39:28,theycelz
+PDS-Farmvet/frontend,122,docs: Atualizar README com funcionalidades novas em formato checklist,Experimental (Sprint 3-4),0.10583333333333333,0,2,113,36,149,2025-11-26 04:54:37,theycelz
+PDS-Farmvet/frontend,121,style: muda botao critico,Experimental (Sprint 3-4),0.03166666666666667,0,0,1,0,1,2025-11-26 04:48:07,GuilhermeCupertino
+PDS-Farmvet/frontend,120,style: padroniza botão de inventario/movimentacao/kit,Experimental (Sprint 3-4),0.1411111111111111,0,5,431,186,617,2025-11-26 04:32:23,GuilhermeCupertino
+PDS-Farmvet/frontend,119,docs: melhora readme diagramas,Experimental (Sprint 3-4),0.42527777777777775,0,3,82,2,84,2025-11-26 04:25:10,theycelz
+PDS-Farmvet/frontend,118,feat: movimentação de kit,Experimental (Sprint 3-4),5.618055555555555,2,2,2377,68,2445,2025-11-26 01:02:54,jecelen
+PDS-Farmvet/frontend,117,docs: reestruturação completa do README e correção de porta,Experimental (Sprint 3-4),16.406388888888888,0,1,375,239,614,2025-11-25 19:28:31,theycelz
+PDS-Farmvet/frontend,116,refactor: padroniza login com o resto do sistema,Experimental (Sprint 3-4),0.18055555555555555,0,2,441,259,700,2025-11-25 02:27:59,GuilhermeCupertino
+PDS-Farmvet/frontend,110,feat: adiciona e exclui usuario,Experimental (Sprint 3-4),76.64444444444445,1,1,281,77,358,2025-11-24 00:32:10,GuilhermeCupertino
+PDS-Farmvet/frontend,109,feat: melhora front login,Experimental (Sprint 3-4),22.959722222222222,0,2,203,101,304,2025-11-20 20:44:11,Lucasmstr
+PDS-Farmvet/frontend,107,refactor: padroniza rotas REST,Experimental (Sprint 3-4),0.22972222222222222,0,3,125,101,226,2025-11-18 19:42:05,theycelz
+PDS-Farmvet/frontend,106,[ERRO] - DESCONSIDERAR,Experimental (Sprint 3-4),0.05583333333333333,0,1,125,101,226,2025-11-18 19:22:58,theycelz
+PDS-Farmvet/frontend,105,feat: adiciona pagina de kits com aba de listagem de templates,Experimental (Sprint 3-4),0.38,1,6,2455,0,2455,2025-11-18 19:01:41,theycelz
+PDS-Farmvet/frontend,104,feat: implementa login,Experimental (Sprint 3-4),50.23027777777778,0,4,2924,565,3489,2025-11-19 01:00:11,GuilhermeCupertino
+PDS-Farmvet/frontend,86,style: implementa saida de todas as modais,Experimental (Sprint 3-4),0.065,1,0,10,10,20,2025-11-10 19:38:04,GuilhermeCupertino
+PDS-Farmvet/frontend,85,feat: adiciona licenca bsd,Experimental (Sprint 3-4),0.05555555555555555,0,1,58,0,58,2025-11-10 18:48:50,theycelz
+PDS-Farmvet/frontend,84,hotfix: remove botao despadronizado,Experimental (Sprint 3-4),0.04722222222222222,0,2,198,159,357,2025-11-10 18:23:22,theycelz
+PDS-Farmvet/frontend,83,chore: retorna lista apos add movimentacao,Experimental (Sprint 3-4),0.12777777777777777,0,2,3,3,6,2025-11-10 18:27:30,jecelen
+PDS-Farmvet/frontend,82,fix: adiciona validação às medicações controladas,Experimental (Sprint 3-4),5.625,2,3,153,26,179,2025-11-10 18:15:08,jecelen
+PDS-Farmvet/frontend,81,refactor: padronizacao do sistema,Experimental (Sprint 3-4),92.45777777777778,0,5,1350,907,2257,2025-11-10 18:14:27,GuilhermeCupertino
+PDS-Farmvet/frontend,80,fix: remover botão de cadastrar primeiro,Experimental (Sprint 3-4),15.0875,0,2,0,3,3,2025-11-06 13:12:50,GuilhermeCupertino
+PDS-Farmvet/frontend,79,fix: corrige portas Docker e otimiza performance com Alpine,Experimental (Sprint 3-4),0.11138888888888888,0,2,9,3,12,2025-11-05 22:06:25,theycelz
+PDS-Farmvet/frontend,77,style: padroniza mensagens de erro e de movimentações ausentes,Experimental (Sprint 3-4),20.375,1,3,13,5,18,2025-11-05 21:59:06,jecelen
+PDS-Farmvet/frontend,76,refactor: correcao do bug de relatorio e atualizacao da tela de dashb…,Experimental (Sprint 3-4),0.7669444444444444,0,9,346,179,525,2025-11-04 22:15:28,GuilhermeCupertino
+PDS-Farmvet/frontend,75,fix: conserta action docker,Experimental (Sprint 3-4),0.03,0,2,7,4,11,2025-11-04 19:44:01,theycelz
+PDS-Farmvet/frontend,74,hotfix: corrige configuração Docker para comunicação com backend,Experimental (Sprint 3-4),0.03916666666666667,0,1,109,22,131,2025-11-04 19:04:16,theycelz
+PDS-Farmvet/frontend,73,refactor: correcao-bugs-item,Experimental (Sprint 3-4),5.629444444444444,0,2,45,16,61,2025-11-04 02:48:24,GuilhermeCupertino
+PDS-Farmvet/frontend,72,fix: resolve bugs #29 #28 #27(part-eos) #23 #24 #25,Experimental (Sprint 3-4),2.0805555555555557,0,5,391,143,534,2025-11-03 21:12:17,theycelz
+PDS-Farmvet/frontend,71,ci: adiciona workflows de release e automação de PRs,Experimental (Sprint 3-4),140.28305555555556,0,4,420,3,423,2025-11-04 17:27:35,theycelz
+PDS-Farmvet/frontend,70,style: dashboard,Experimental (Sprint 3-4),0.42944444444444446,0,2,66,29,95,2025-10-29 21:26:24,GuilhermeCupertino
+PDS-Farmvet/frontend,69,hotfix: corrige config.sh não versionado nos hooks do husky,Experimental (Sprint 3-4),0.37277777777777776,0,1,77,11,88,2025-10-29 21:01:31,theycelz
+PDS-Farmvet/frontend,68,Hotfix: remove botoes bugados,Experimental (Sprint 3-4),0.16972222222222222,0,2,0,32,32,2025-10-29 20:15:13,GilvanFe
+PDS-Farmvet/frontend,67,chore: abrir registro de movimentação com tipo selecionado,Experimental (Sprint 3-4),0.5180555555555556,2,2,28,14,42,2025-10-29 19:32:56,jecelen
+PDS-Farmvet/frontend,66,style: atualiza relatorios,Experimental (Sprint 3-4),0.09388888888888888,0,2,32,23,55,2025-10-29 19:06:49,GuilhermeCupertino
+PDS-Farmvet/frontend,65,Style : altera estilo header seletor do dashboard,Experimental (Sprint 3-4),0.7263888888888889,0,4,51,1,52,2025-10-29 18:55:34,GilvanFe
+PDS-Farmvet/frontend,64,feat: moderniza e ajusta páginas de Estoque e estatisticas,Experimental (Sprint 3-4),2.7308333333333334,0,4,475,194,669,2025-10-29 19:16:29,theycelz
+PDS-Farmvet/frontend,63,style: dialogs-movimentacoes,Experimental (Sprint 3-4),6.334444444444444,1,2,1250,577,1827,2025-10-29 18:56:10,jecelen
+PDS-Farmvet/frontend,62,refactor/tela de estoque,Experimental (Sprint 3-4),0.3036111111111111,0,3,657,2,659,2025-10-28 21:47:59,GuilhermeCupertino
+PDS-Farmvet/frontend,61,refactor: tela de relatorio,Experimental (Sprint 3-4),0.6508333333333334,0,1,2484,216,2700,2025-10-28 21:34:20,GuilhermeCupertino
+PDS-Farmvet/frontend,60,fix: corrige débitos técnicos da sprint 02,Experimental (Sprint 3-4),0.5097222222222222,0,4,111,114,225,2025-10-28 21:03:46,theycelz
+PDS-Farmvet/frontend,59,refactor: refatora dashboard,Experimental (Sprint 3-4),2.1230555555555557,0,3,428,123,551,2025-10-28 21:29:22,GilvanFe
+PDS-Farmvet/frontend,58,refactor: redesign e dockerização do repositorio,Experimental (Sprint 3-4),1.0141666666666667,0,7,4366,6374,10740,2025-10-28 19:20:46,theycelz
+PDS-Farmvet/frontend,57,ci: adiciona pre hooks,Experimental (Sprint 3-4),0.6202777777777778,0,3,3893,6347,10240,2025-10-28 18:55:19,theycelz
+PDS-Farmvet/frontend,56,refactor: atualiza visualizar item,Experimental (Sprint 3-4),1.0052777777777777,0,2,263,38,301,2025-10-28 18:58:09,GuilhermeCupertino
+PDS-Farmvet/frontend,55,refactor: adiciona condicao desativar e editar,Experimental (Sprint 3-4),21.35333333333333,0,3,261,36,297,2025-10-28 18:57:11,GuilhermeCupertino
+PDS-Farmvet/frontend,54,feat: desativar e reativar item,Experimental (Sprint 3-4),23.14638888888889,0,1,215,32,247,2025-10-28 18:55:42,GuilhermeCupertino
+PDS-Farmvet/frontend,53,style: simplificar a iteração sobre mensagens de erro e ajustar a for…,Experimental (Sprint 3-4),0.085,1,2,17,18,35,2025-10-21 21:48:07,theycelz
+PDS-Farmvet/frontend,52,style: ajustar a formatação do CNPJ e do telefone no formulário de fo…,Experimental (Sprint 3-4),0.05611111111111111,0,1,49,43,92,2025-10-21 21:12:29,theycelz
+PDS-Farmvet/frontend,50,style: altera a formatação do valor total no inventario para padrão real BR,Baseline (Sprint 1-2),1.6019444444444444,1,2,15,2,17,2025-10-15 22:10:06,jecelen
+PDS-Farmvet/frontend,49,style/adiciona-movimentacao,Baseline (Sprint 1-2),1.9375,3,2,1051,784,1835,2025-10-15 19:38:43,jecelen
+PDS-Farmvet/frontend,48,hotfix/conserta setor e testes urgentes,Baseline (Sprint 1-2),23.205277777777777,0,1,117,78,195,2025-10-15 19:40:14,theycelz
+PDS-Farmvet/frontend,47,hotfix/atualiza tela adicionar item,Baseline (Sprint 1-2),1.0866666666666667,0,1,443,58,501,2025-10-14 20:16:02,GuilhermeCupertino
+PDS-Farmvet/frontend,46,style/lista movimentacoes,Baseline (Sprint 1-2),26.80472222222222,1,2,1095,485,1580,2025-10-15 19:15:29,jecelen
+PDS-Farmvet/frontend,45,hotfix: restaura botão de engrenagem em inventário e remove opção da LeftBar,Baseline (Sprint 1-2),0.01861111111111111,0,1,72,50,122,2025-10-13 21:08:46,theycelz
+PDS-Farmvet/frontend,44,feat: ativar-fornecedor-e-setor-padronização visual (ordem de merge 4),Baseline (Sprint 1-2),188.37,1,2,1773,311,2084,2025-10-13 20:43:57,theycelz
+PDS-Farmvet/frontend,43,feat: Implementar desativação de setores (UI) (ordem de merge - 3),Baseline (Sprint 1-2),190.13777777777779,1,2,5664,827,6491,2025-10-13 19:58:29,theycelz
+PDS-Farmvet/frontend,42,feat: Implementar desativação de fornecedores (UI) (ordem de merge - 2),Baseline (Sprint 1-2),191.97416666666666,1,2,4507,500,5007,2025-10-13 19:53:55,theycelz
+PDS-Farmvet/frontend,40,refactor/tela editar e desativar item (ordem merge -1),Baseline (Sprint 1-2),262.53805555555556,1,2,923,203,1126,2025-10-13 19:50:55,GuilhermeCupertino
+PDS-Farmvet/frontend,39,style: adiciona o rodape da agetic com tamanho compativel,Baseline (Sprint 1-2),25.225833333333334,1,2,75,109,184,2025-10-02 21:41:10,jecelen
+PDS-Farmvet/frontend,38,refactor: UI left bar,Baseline (Sprint 1-2),0.2663888888888889,2,2,405,527,932,2025-09-30 21:08:38,GuilhermeCupertino
+PDS-Farmvet/frontend,37,feat: atualiza mensagem de validação do CATMAT e corrige prop loading,Baseline (Sprint 1-2),24.784444444444443,0,1,6,3,9,2025-09-30 21:08:40,GuilhermeCupertino
+PDS-Farmvet/frontend,36,fix: resolve falha no registro de saída,Baseline (Sprint 1-2),73.63305555555556,1,2,4030,1634,5664,2025-10-02 21:42:18,jecelen
+PDS-Farmvet/frontend,32,feat: adiciona campo marca no registro de movimentacao de entrada,Baseline (Sprint 1-2),217.145,2,2,7,2,9,2025-10-02 21:46:13,jecelen
+PDS-Farmvet/frontend,29,refactor: alinha frontend ao novo contrato de Setor,Baseline (Sprint 1-2),13.922777777777778,0,0,434,43,477,2025-09-18 17:23:32,theycelz
+PDS-Farmvet/frontend,28,refactor(front): ajustar conexão dos campos do back com o front,Baseline (Sprint 1-2),17.8275,0,3,2648,5254,7902,2025-09-18 11:45:16,GuilhermeCupertino
+PDS-Farmvet/frontend,27,"refactor: adiciona devolução à saída, remove obrigatoriedades de camp…",Baseline (Sprint 1-2),2.0572222222222223,0,1,43,56,99,2025-09-17 17:36:12,jecelen
+PDS-Farmvet/frontend,26,refactor: alinhar formulário CATMAT e rotas à nova regra,Baseline (Sprint 1-2),22.34638888888889,2,1,5,4,9,2025-09-16 19:03:56,theycelz
+PDS-Farmvet/frontend,25,chore: adiciona docker,Baseline (Sprint 1-2),0.3236111111111111,0,1,1130,157,1287,2025-09-08 21:32:39,theycelz
+PDS-Farmvet/frontend,22,feat/add hooks fix jobs,Baseline (Sprint 1-2),0.007222222222222222,0,0,142,81,223,2025-09-02 21:38:23,theycelz

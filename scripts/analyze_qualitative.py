@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-INPUT_FILE = "responses-da6RQuZV-01KB5R1PWAEJ1CE1QMZZRYA4FG-B7YGN6RQ5VNUCWOH3BMTJYI7.csv"
-OUTPUT_REPORT = "qualitative_analysis.md"
-PLOT_DIR = "docs/analysis_plots"
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+INPUT_FILE = os.path.join(BASE_DIR, "data", "survey_responses.csv")
+OUTPUT_REPORT = os.path.join(BASE_DIR, "reports", "qualitative_analysis.md")
+PLOT_DIR = os.path.join(BASE_DIR, "results", "analysis_plots")
 
 os.makedirs(PLOT_DIR, exist_ok=True)
 

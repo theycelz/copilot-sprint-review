@@ -8,9 +8,10 @@ import os
 import numpy as np
 
 # Configuration
-INPUT_FILE = "pr_metrics_analyzed.csv"
-PLOT_DIR = "docs/analysis_plots"
-DASHBOARD_FILE = "docs/metrics_dashboard.html"
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+INPUT_FILE = os.path.join(BASE_DIR, "data", "pr_metrics_analyzed.csv")
+PLOT_DIR = os.path.join(BASE_DIR, "results", "analysis_plots")
+DASHBOARD_FILE = os.path.join(BASE_DIR, "results", "metrics_dashboard.html")
 
 os.makedirs(PLOT_DIR, exist_ok=True)
 

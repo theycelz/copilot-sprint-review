@@ -6,13 +6,26 @@ import seaborn as sns
 import os
 
 # Configuration
-INPUT_FILE = "pr_metrics_analysis.csv"
-OUTPUT_REPORT = "analysis_report.md"
-OUTPUT_DATA = "pr_metrics_analyzed.csv"
-OUTPUT_CORR = "correlation_matrix.csv"
-PLOT_DIR = "docs/analysis_plots"
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+INPUT_FILE = os.path.join(BASE_DIR, "data", "pr_metrics_analysis.csv")
+OUTPUT_REPORT = os.path.join(BASE_DIR, "reports", "analysis_report.md")
+OUTPUT_DATA = os.path.join(BASE_DIR, "data", "pr_metrics_analyzed.csv")
+OUTPUT_CORR = os.path.join(BASE_DIR, "data", "correlation_matrix.csv")
+PLOT_DIR = os.path.join(BASE_DIR, "results", "analysis_plots")
 
 os.makedirs(PLOT_DIR, exist_ok=True)
+
+def get_login(val):
+    """Extract login from GitHub author dict stored as string in CSV."""
+    if isinstance(val, str) and '{' in val:
+        try:
+            import ast
+            d = ast.literal_eval(val)
+            return d.get('login', 'unknown')
+        except (ValueError, SyntaxError):
+            return val
+    return val
+
 
 def load_data():
     if not os.path.exists(INPUT_FILE):
@@ -151,38 +164,11 @@ def main():
     # 5. Segmentation
     report_lines.append("\n## 5. Segmentação")
     
-    # By Author
-    if 'Author' in df.columns: # Check if we have Author data, collect_metrics might need update if not present or if it's a dict
-        # In collect_metrics.py I requested 'author' in json fields, but didn't parse it to a flat string in the dict.
-        # Let's check if 'author' column exists and is usable.
-        # If it's a dict/json object, we might need to extract login.
-        # Actually, looking at collect_metrics.py, I did: "author": pr["author"]
-        # pr["author"] is usually a dict {login: ..., ...}.
-        # I should probably fix that in this script if needed.
-        pass
-    
-    # Let's try to extract author login if it's a string representation of a dict
-    try:
-        # Assuming it might be loaded as a string or dict
-        # But wait, I saved it to CSV. CSV saves dicts as strings.
-        # I'll try to clean it up.
-        def get_login(val):
-            if isinstance(val, str) and '{' in val:
-                try:
-                    import ast
-                    d = ast.literal_eval(val)
-                    return d.get('login', 'unknown')
-                except:
-                    return val
-            return val
-            
-        if 'Author' in df.columns:
-            df['Author_Login'] = df['Author'].apply(get_login)
-            author_stats = df.groupby('Author_Login')["Time to Merge (Hours)"].agg(['count', 'mean', 'median'])
-            report_lines.append("\n### Por Autor (Top 5 por volume)")
-            report_lines.append(author_stats.sort_values('count', ascending=False).head(5).to_markdown())
-    except Exception as e:
-        report_lines.append(f"\nErro na segmentação por autor: {e}")
+    if 'Author' in df.columns:
+        df['Author_Login'] = df['Author'].apply(get_login)
+        author_stats = df.groupby('Author_Login')["Time to Merge (Hours)"].agg(['count', 'mean', 'median'])
+        report_lines.append("\n### Por Autor (Top 5 por volume)")
+        report_lines.append(author_stats.sort_values('count', ascending=False).head(5).to_markdown())
 
     # By Size
     # Small < 100, Medium < 500, Large >= 500

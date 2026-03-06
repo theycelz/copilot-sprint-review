@@ -156,7 +156,7 @@ def main():
     print(summary)
     
     # Save to CSV
-    output_file = "pr_metrics_analysis.csv"
+    output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "pr_metrics_analysis.csv")
     df.to_csv(output_file, index=False)
     print(f"\nDetailed data saved to {output_file}")
 

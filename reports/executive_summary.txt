@@ -10,7 +10,4 @@ Redução de 95.0% no tempo mediano de merge (de 15.1 horas para 0.75 horas).
 A taxa de retrabalho aumentou (3.9% -> 15.2%), exigindo um processo de revisão mais atento. A redução de 59% nos comentários sugere que a revisão humana precisa ser reforçada para não se tornar superficial.
 
 4. Recomendação:
-Adotar a ferramenta. O ganho de velocidade justifica a adoção, desde que acompanhado de testes automatizados e revisão humana crítica para mitigar os riscos de qualidade.
-
-5. Recomendação:
-Adotar a metodologia híbrida permanentemente, mantendo a revisão humana para contexto de negócio e monitorando a taxa de bugs em produção.
+Adotar a ferramenta com metodologia híbrida permanente. O ganho de velocidade justifica a adoção, desde que acompanhado de testes automatizados e revisão humana crítica para mitigar os riscos de qualidade. Manter a revisão humana para contexto de negócio e monitorar a taxa de bugs em produção.

@@ -31,7 +31,7 @@ Implementação de revisão de Pull Requests assistida por Agente GitHub Copilot
 
 ## Resultado Principal
 
-![width:900px](docs/analysis_plots/01_impacto_tempo_merge.png)
+![width:900px](results/analysis_plots/01_impacto_tempo_merge.png)
 
 ### O tempo mediano até o merge caiu 95% (de 15.1h para 0.75h).
 
@@ -39,7 +39,7 @@ Implementação de revisão de Pull Requests assistida por Agente GitHub Copilot
 
 ## Métricas Quantitativas
 
-![width:900px](docs/analysis_plots/02_metricas_resumidas.png)
+![width:900px](results/analysis_plots/02_metricas_resumidas.png)
 
 *Diferença estatisticamente significativa (Mann-Whitney U, p < 0.01)*
 
@@ -83,7 +83,7 @@ Implementação de revisão de Pull Requests assistida por Agente GitHub Copilot
 
 **Próximos Passos**:
 1.  **Refinar Prompt**: Ajustar o Agente para ser menos verboso em questões triviais.
-2.  **Monitorar Produção**: Verificar se o aumento de "fix" em PRs vira bugs para o usuário.vação humana para garantir contexto de negócio.
+2.  **Monitorar Produção**: Verificar se o aumento de "fix" em PRs vira bugs para o usuário. Manter revisão humana para garantir contexto de negócio.
 3.  **Monitorar Qualidade**: Acompanhar se a taxa de bugs em produção aumenta (não apenas PRs de fix).
 
 ---
@@ -91,4 +91,4 @@ Implementação de revisão de Pull Requests assistida por Agente GitHub Copilot
 # Obrigado!
 
 **Dúvidas?**
-Acesse o Dashboard Interativo em `docs/metrics_dashboard.html`
+Acesse o Dashboard Interativo em `results/metrics_dashboard.html`
